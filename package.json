@@ -1,0 +1,26 @@
+{
+  "name": "ts-design-pattarns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "dev": "webpack --mode development",
+    "build": "webpack"
+  },
+  "author": "Masayuki Yamaguchi <stout22.dark@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "ts-loader": "^9.2.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
